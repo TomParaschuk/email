@@ -3,8 +3,8 @@ var email = require('../lib');
 email.send({
   api_user: "username",
   api_key: "key",
-  to: "test@marak.com",
-  from: "test@big.vc",
+  to: "tw2999pa@uwaterloo.ca",
+  from: "tw2999pa@uwaterloo.ca",
   subject: "test email from email resource",
   text: "hello"
 }, function (err, result) {
